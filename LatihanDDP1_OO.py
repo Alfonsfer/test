@@ -33,9 +33,9 @@ class Mahasiswa:
         
 
 class MahasiswaUI(Mahasiswa):
-##    def __init__(self,nama,npm,ipk,sks,makara):
-##        super().__init__(nama,npm,ipk,sks)
-##        self.makara = makara
+    def __init__(self,nama,npm,ipk,sks,makara):
+        super().__init__(nama,npm,ipk,sks)
+        self.makara = makara
 
     def aksi(self):
         super().aksi()
