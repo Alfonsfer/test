@@ -49,3 +49,7 @@ class MahasiswaUI(Mahasiswa):
             super().kurangiSKS(kurangan)
         else:
             print("Tidak Boleh")
+
+    def updateIPK(self,new):
+        self.ipk = new
+        
